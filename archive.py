@@ -26,7 +26,7 @@ def main():
 
     parser.add_argument('-g', '--group', nargs=1, type=str, metavar='group', help='Group Name', required=True)
     parser.add_argument('-t', '--token', nargs=1, type=str, metavar='token', help='GroupMe API Token', required=True)
-    parser.add_argument('-d', '--directory', nargs=1, type=str, metavar='token', help='Base chat directory')
+    parser.add_argument('-d', '--directory', nargs=1, type=str, metavar='directory', help='Base chat directory')
     #parser.add_argument('-a', '--attachments', nargs=1, type=str, metavar='group', help='Directory to store attachments')
     #parser.add_argument('-p', '--profile', nargs=1, type=str, metavar='group', help='Directory to store profile pictures')
     #parser.add_argument('--no-store-attachments', action='store_true', help='Do not save attachments')
